@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+    <menuitem id="material_menu_dashboard" name="Material" sequence="1" web_icon="material_material,static/icon.png"/>
+
+    <menuitem id="material_menu_bar" name="Data Material" parent="material_menu_dashboard"/>
+
+    <menuitem id="material_menu_item" name="Form Material" parent="material_menu_bar" action="material_material_action"/>
+    
+    </data>
+    
+
+</odoo>
